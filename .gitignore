@@ -7,5 +7,5 @@ venv
 .DS_Store
 docs/_build
 
-intercom.sublime-project
-intercom.sublime-workspace
+python_intercom.sublime-project
+python_intercom.sublime-workspace
