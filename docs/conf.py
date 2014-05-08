@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# intercom documentation build configuration file, created by
+# python_intercom documentation build configuration file, created by
 # sphinx-quickstart on Tue Mar 20 09:38:03 2012.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -53,7 +53,7 @@ copyright = u'2013, John Keyes'
 # The short X.Y version.
 
 import re
-with file(os.path.join(path_dir, 'intercom', 'intercom.py')) as init:
+with file(os.path.join(path_dir, 'python_intercom', 'intercom.py')) as init:
     source = init.read()
     m = re.search("__version__ = '(\d+\.\d+\.\d+)'", source, re.M)
     version = m.groups()[0]
@@ -173,7 +173,7 @@ html_theme = 'default'
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'intercomdoc'
+htmlhelp_basename = 'python_intercomdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------

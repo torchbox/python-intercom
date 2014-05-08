@@ -6,10 +6,10 @@ Typical usage:
 
 ::
 
-    from intercom import Intercom
+    from python_intercom import Intercom
     Intercom.app_id = 'app-id'
     Intercom.api_key = 'api-key'
     
-    from intercom import User
+    from python_intercom import User
     for user in User.all():
         print user.email

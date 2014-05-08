@@ -8,7 +8,7 @@ Run all of the (nose) tests:
 
 ::
 
-    nosetests --with-coverage --cover-package=intercom tests
+    nosetests --with-coverage --cover-package=python_intercom tests
 
 Run the unit tests:
 
@@ -35,7 +35,7 @@ Run the doctests in a specific module:
 
 ::
 
-    ./bin/doctest intercom/user.py
+    ./bin/doctest python_intercom/user.py
 
 Code coverage
 -------------
@@ -44,7 +44,7 @@ Generate a code coverage report:
 
 ::
 
-    nosetests --with-coverage --cover-package=intercom tests
+    nosetests --with-coverage --cover-package=python_intercom tests
 
 Pylint
 ------
@@ -53,13 +53,13 @@ Generate a pylint report for a specific module:
 
 ::
 
-    pylint --rcfile=pylint.conf intercom/user.py
+    pylint --rcfile=pylint.conf python_intercom/user.py
 
 Generate a full pylint report:
 
 ::
 
-    pylint --rcfile=pylint.conf intercom
+    pylint --rcfile=pylint.conf python_intercom
 
 Runtime Dependencies
 --------------------

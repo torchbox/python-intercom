@@ -1,10 +1,10 @@
-intercom Package
-================
+python_intercom Package
+=======================
 
-:mod:`intercom` Package
+:mod:`python_intercom` Package
 -----------------------
 
-.. automodule:: intercom.__init__
+.. automodule:: python_intercom.__init__
     :members:
     :undoc-members:
     :show-inheritance:
@@ -12,15 +12,15 @@ intercom Package
 :mod:`impression` Module
 ------------------------
 
-.. automodule:: intercom.impression
+.. automodule:: python_intercom.impression
     :members:
     :undoc-members:
     :show-inheritance:
 
-:mod:`intercom` Module
+:mod:`python_intercom` Module
 ----------------------
 
-.. automodule:: intercom.intercom
+.. automodule:: python_intercom.intercom
     :members:
     :undoc-members:
     :show-inheritance:
@@ -28,7 +28,7 @@ intercom Package
 :mod:`message_thread` Module
 ----------------------------
 
-.. automodule:: intercom.message_thread
+.. automodule:: python_intercom.message_thread
     :members:
     :undoc-members:
     :show-inheritance:
@@ -36,7 +36,7 @@ intercom Package
 :mod:`user` Module
 ------------------
 
-.. automodule:: intercom.user
+.. automodule:: python_intercom.user
     :members:
     :undoc-members:
     :show-inheritance:

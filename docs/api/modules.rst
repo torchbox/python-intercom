@@ -1,7 +1,7 @@
-intercom
-========
+python_intercom
+===============
 
 .. toctree::
    :maxdepth: 4
 
-   intercom
+   python_intercom

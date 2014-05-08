@@ -31,7 +31,7 @@ Intercom documentation: `Authentication <http://api.intercom.io/docs#authenticat
 
 ::
 
-    from intercom import Intercom
+    from python_intercom import Intercom
     Intercom.app_id = 'dummy-app-id'
     Intercom.api_key = 'dummy-api-key'
 
@@ -45,7 +45,7 @@ Intercom documentation: `Getting all Users <http://api.intercom.io/docs#getting_
 
 ::
 
-    from intercom import User
+    from python_intercom import User
     for user in User.all():
         print user.email
 
@@ -103,7 +103,7 @@ Intercom documentation: `Creating a Note <http://api.intercom.io/docs#creating_a
 
 ::
 
-    from intercom import Note
+    from python_intercom import Note
     note = Note.create(email="ben@intercom.io", 
             body="These are a few of my favourite things.")
 
@@ -118,7 +118,7 @@ Intercom documentation: `Getting a Tag <http://api.intercom.io/docs#getting_a_ta
 
 ::
 
-    from intercom import Tag
+    from python_intercom import Tag
     tag = Tag.find_by_name("Free Trial")
 
 Creating a Tag
@@ -128,7 +128,7 @@ Intercom documentation: `Creating a Tag <http://api.intercom.io/docs#creating_a_
 
 ::
 
-    from intercom import Tag
+    from python_intercom import Tag
     tag = Tag.create("Free Trial")
 
 Updating a Tag
@@ -138,7 +138,7 @@ Intercom documentation: `Updating a Tag <http://api.intercom.io/docs#updating_a_
 
 ::
 
-    from intercom import Tag
+    from python_intercom import Tag
     tag = Tag.update("Free Trial", "tag",
         user_ids=["abc123", "def456"])
 
@@ -153,7 +153,7 @@ Intercom documentation: `Creating an Impression <http://api.intercom.io/docs#cre
 
 ::
 
-    from intercom import Impression
+    from python_intercom import Impression
     impression = Impression.create(email="ben@intercom.io", 
             user_agent="my-awesome-android-app-v0.0.1")
 
@@ -167,7 +167,7 @@ Intercom documentation:  `Getting Message Threads <http://api.intercom.io/docs#g
 
 ::
 
-    from intercom import MessageThread
+    from python_intercom import MessageThread
 
     # all message threads
     message_threads = MessageThread.find_all(email="ben@intercom.io")

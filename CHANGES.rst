@@ -2,6 +2,8 @@
 Changelog
 =========
 
+* 0.2.11
+   * Renamed module `intercom` to `python_intercom` to avert clash with django-intercom package.
 * 0.2.10
    * basic support for companies. `#18 <https://github.com/jkeyes/python-intercom/pull/18>`_. (https://github.com/cameronmaske)
    * fixed User.delete. `#19 <https://github.com/jkeyes/python-intercom/pull/19>`_. (https://github.com/cameronmaske)
