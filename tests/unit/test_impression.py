@@ -5,7 +5,7 @@
 # License: http://jkeyes.mit-license.org/
 #
 
-from intercom import Impression
+from python_intercom import Impression
 from nose.tools import eq_
 
 

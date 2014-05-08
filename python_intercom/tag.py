@@ -6,10 +6,10 @@
 #
 """ Tag module.
 
->>> from intercom import Intercom
+>>> from python_intercom import Intercom
 >>> Intercom.app_id = 'dummy-app-id'
 >>> Intercom.api_key = 'dummy-api-key'
->>> from intercom.tag import Tag
+>>> from python_intercom.tag import Tag
 
 """
 

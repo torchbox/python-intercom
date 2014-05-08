@@ -5,7 +5,7 @@
 # License: http://jkeyes.mit-license.org/
 #
 
-from intercom.message_thread import MessageThread
+from python_intercom.message_thread import MessageThread
 from nose.tools import eq_
 from nose.tools import raises
 

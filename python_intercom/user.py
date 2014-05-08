@@ -6,8 +6,8 @@
 #
 """ User module.
 
->>> from intercom import Intercom
->>> from intercom import User
+>>> from python_intercom import Intercom
+>>> from python_intercom import User
 
 """
 
@@ -254,7 +254,7 @@ class User(UserId):
         >>> len(social_profiles)
         2
         >>> type(social_profiles[0])
-        <class 'intercom.user.SocialProfile'>
+        <class 'python_intercom.user.SocialProfile'>
         >>> social_profiles[0].type
         u'twitter'
         >>> social_profiles[0].url
@@ -272,7 +272,7 @@ class User(UserId):
         >>> users = User.all()
         >>> location_data = users[0].location_data
         >>> type(location_data)
-        <class 'intercom.user.LocationData'>
+        <class 'python_intercom.user.LocationData'>
         >>> location_data.country_name
         u'Chile'
         >>> location_data.city_name
@@ -359,7 +359,7 @@ class User(UserId):
         >>> users = User.all()
         >>> custom_data = users[0].custom_data
         >>> type(custom_data)
-        <class 'intercom.user.CustomData'>
+        <class 'python_intercom.user.CustomData'>
         >>> custom_data['monthly_spend']
         155.5
 
@@ -377,7 +377,7 @@ class User(UserId):
         >>> user = User(email="somebody@example.com")
         >>> user.custom_data = { 'max_monthly_spend': 200 }
         >>> type(user.custom_data)
-        <class 'intercom.user.CustomData'>
+        <class 'python_intercom.user.CustomData'>
         >>> user.save()
         >>> len(user.custom_data)
         3
@@ -392,7 +392,7 @@ class CustomData(dict):
     """ A dict that limits keys to strings, and values to real numbers
     and strings.
 
-    >>> from intercom.user import CustomData
+    >>> from python_intercom.user import CustomData
     >>> data = CustomData()
     >>> data['a_dict'] = {}
     Traceback (most recent call last):
@@ -423,7 +423,7 @@ class SocialProfile(dict):
 
     This object is read-only, and to hint at this __setitem__ is disabled.
 
-    >>> from intercom.user import SocialProfile
+    >>> from python_intercom.user import SocialProfile
     >>> profile = SocialProfile(type=u'twitter')
     >>> profile.type
     u'twitter'
@@ -498,7 +498,7 @@ class LocationData(dict):
 
     This object is read-only, and to hint at this __setitem__ is disabled.
 
-    >>> from intercom.user import SocialProfile
+    >>> from python_intercom.user import SocialProfile
     >>> profile = SocialProfile(type=u'twitter')
     >>> profile.type
     u'twitter'

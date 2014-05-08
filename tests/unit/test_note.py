@@ -5,7 +5,7 @@
 #
 
 from datetime import datetime
-from intercom import Note
+from python_intercom import Note
 from nose.tools import eq_
 
 

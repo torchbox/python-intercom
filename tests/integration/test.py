@@ -12,16 +12,16 @@ import re
 DIRPATH = os.path.dirname(__file__)
 FIXTURES = os.path.join(DIRPATH, 'fixtures')
 
-from intercom import AuthenticationError
-from intercom import BadGatewayError
-from intercom import ResourceNotFound
-from intercom import ServerError
-from intercom import ServiceUnavailableError
-from intercom import Intercom
-from intercom import User
-from intercom import MessageThread
-from intercom import Impression
-from intercom import Note
+from python_intercom import AuthenticationError
+from python_intercom import BadGatewayError
+from python_intercom import ResourceNotFound
+from python_intercom import ServerError
+from python_intercom import ServiceUnavailableError
+from python_intercom import Intercom
+from python_intercom import User
+from python_intercom import MessageThread
+from python_intercom import Impression
+from python_intercom import Note
 from nose.tools import nottest
 from nose.tools import eq_
 from nose.tools import ok_
@@ -297,25 +297,25 @@ def test_doctest():
         body=fixture('v1-users-impressions'))
 
     (failure_count, test_count) = doctest.testfile(
-        "../../intercom/user.py")
+        "../../python_intercom/user.py")
     eq_(failure_count, 0)
 
     (failure_count, test_count) = doctest.testfile(
-        "../../intercom/tag.py")
+        "../../python_intercom/tag.py")
     eq_(failure_count, 0)
 
     (failure_count, test_count) = doctest.testfile(
-        "../../intercom/note.py")
+        "../../python_intercom/note.py")
     eq_(failure_count, 0)
 
     (failure_count, test_count) = doctest.testfile(
-        "../../intercom/message_thread.py")
+        "../../python_intercom/message_thread.py")
     eq_(failure_count, 0)
 
     (failure_count, test_count) = doctest.testfile(
-        "../../intercom/impression.py")
+        "../../python_intercom/impression.py")
     eq_(failure_count, 0)
 
     (failure_count, test_count) = doctest.testfile(
-        "../../intercom/intercom.py")
+        "../../python_intercom/intercom.py")
     eq_(failure_count, 0)

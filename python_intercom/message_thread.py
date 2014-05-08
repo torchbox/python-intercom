@@ -6,10 +6,10 @@
 #
 """ message_thread module.
 
->>> from intercom import Intercom
+>>> from python_intercom import Intercom
 >>> Intercom.app_id = 'dummy-app-id'
 >>> Intercom.api_key = 'dummy-api-key'
->>> from intercom import MessageThread
+>>> from python_intercom import MessageThread
 
 """
 
@@ -34,7 +34,7 @@ class MessageThread(dict):
         3
         >>> message = message_thread.messages[0]
         >>> type(message)
-        <class 'intercom.message_thread.Message'>
+        <class 'python_intercom.message_thread.Message'>
 
         """
         if thread_id is None:
@@ -151,7 +151,7 @@ class Message(dict):
     ... thread_id=5591)
     >>> message = message_thread.messages[0]
     >>> type(message.author)
-    <class 'intercom.message_thread.MessageAuthor'>
+    <class 'python_intercom.message_thread.MessageAuthor'>
     >>> message.html
     u'<p>Hey Intercom, What is up?</p>\n\n<p></p>'
     >>> type(message.created_at)

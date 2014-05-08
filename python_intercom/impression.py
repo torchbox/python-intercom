@@ -6,10 +6,10 @@
 #
 """ Impression module.
 
->>> from intercom import Intercom
+>>> from python_intercom import Intercom
 >>> Intercom.app_id = 'dummy-app-id'
 >>> Intercom.api_key = 'dummy-api-key'
->>> from intercom import Impression
+>>> from python_intercom import Impression
 
 """
 

@@ -8,7 +8,7 @@
 
 All of the API requests are created, and the API responses are parsed here.
 
->>> from intercom import Intercom
+>>> from python_intercom import Intercom
 >>> Intercom.app_id = 'dummy-app-id'
 >>> Intercom.api_key = 'dummy-api-key'
 

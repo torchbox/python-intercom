@@ -5,7 +5,7 @@
 # License: http://jkeyes.mit-license.org/
 #
 
-from intercom.tag import Tag
+from python_intercom.tag import Tag
 from nose.tools import eq_
 from nose.tools import raises
 

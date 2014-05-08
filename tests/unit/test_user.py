@@ -6,11 +6,11 @@
 #
 
 from datetime import datetime
-from intercom.user import CustomData
-from intercom.user import LocationData
-from intercom.user import SocialProfile
-from intercom.user import User
-from intercom.user import Company
+from python_intercom.user import CustomData
+from python_intercom.user import LocationData
+from python_intercom.user import SocialProfile
+from python_intercom.user import User
+from python_intercom.user import Company
 from nose.tools import eq_
 from nose.tools import raises
 
